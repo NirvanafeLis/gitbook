@@ -10,7 +10,7 @@
 * [sqlmap](hzm/sqlmap.md)
 * [Ettercap](hzm/ettercap.md)
 * [metasploit](hzm/metasploit.md)
-* [Wireshark（未完成）](hzm/wireshark-wei-wan-cheng.md)
+* [Wireshark](hzm/wireshark.md)
 
 ## 张振康的玩意 <a href="#zzk" id="zzk"></a>
 
