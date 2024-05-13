@@ -7,6 +7,10 @@
 * [基础（生命周期云云）](hzm/ji-chu-sheng-ming-zhou-qi-yun-yun.md)
 * [nmap](hzm/nmap.md)
 * [Brupsuite](hzm/brupsuite.md)
+* [sqlmap](hzm/sqlmap.md)
+* [Ettercap](hzm/ettercap.md)
+* [metasploit](hzm/metasploit.md)
+* [Wireshark（未完成）](hzm/wireshark-wei-wan-cheng.md)
 
 ## 张振康的玩意 <a href="#zzk" id="zzk"></a>
 
