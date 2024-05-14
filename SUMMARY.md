@@ -1,9 +1,11 @@
 # Table of contents
 
-* [首先](README.md)
+* [前言](README.md)
 
 ## 胡志明的玩意 <a href="#hzm" id="hzm"></a>
 
+* [一些好幽默的判断/填空题](hzm/yi-xie-hao-you-mo-de-pan-duan-tian-kong-ti.md)
+* [请求头&响应头字段与作用](hzm/qing-qiu-tou-xiang-ying-tou-zi-duan-yu-zuo-yong.md)
 * [渗透测试的生命周期&常用工具](hzm/shen-tou-ce-shi-de-sheng-ming-zhou-qi-chang-yong-gong-ju.md)
 * [nmap](hzm/nmap.md)
 * [Brupsuite](hzm/brupsuite.md)
@@ -11,9 +13,12 @@
 * [Ettercap](hzm/ettercap.md)
 * [metasploit](hzm/metasploit.md)
 * [Wireshark](hzm/wireshark.md)
+* [html+css（主要是css盒模型）](hzm/html+css-zhu-yao-shi-css-he-mo-xing.md)
+* [cookie与session](hzm/cookie-yu-session.md)
 * [sql语句](hzm/sql-yu-ju.md)
 * [php函数](hzm/php-han-shu.md)
 * [linux命令](hzm/linux-ming-ling.md)
+* [社会工程学相关](hzm/she-hui-gong-cheng-xue-xiang-guan.md)
 
 ## 张振康的玩意 <a href="#zzk" id="zzk"></a>
 
