@@ -6,4 +6,6 @@ web浏览器通过 <mark style="color:blue;">**TCP/IP**</mark> 协议与web服�
 \
 preg\_match()函数用于<mark style="color:blue;">**执行正则表达式匹配**</mark>\
 \
-常见的web服务器软件包括Apache、Nginx和<mark style="color:blue;">**Tomcat Node.js**</mark>
+常见的web服务器软件包括Apache、Nginx和<mark style="color:blue;">**Tomcat Node.js**</mark>\
+\
+\#000000表示黑色
