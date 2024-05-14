@@ -60,35 +60,74 @@ app00   //主机名称
 
 1.3 命令的组成 示例：命令 参数名 参数值
 
-二、基础操作 2.1 关闭系统 (1)立刻关机 shutdown -h now 或者 poweroff (2)两分钟后关机 shutdown -h 2
+二、基础操作 2.1 关闭系统 \
+(1)立刻关机 shutdown -h now 或者 poweroff \
+(2)两分钟后关机 shutdown -h 2
 
-2.2 关闭重启 (1)立刻重启 shutdown -r now 或者 reboot (2)两分钟后重启 shutdown -r 2
+2.2 关闭重启 \
+(1)立刻重启 shutdown -r now 或者 reboot \
+(2)两分钟后重启 shutdown -r 2
 
-2.3 帮助命令（help） ifconfig --help //查看 ifconfig 命令的用法
+2.3 帮助命令（help） \
+ifconfig --help //查看 ifconfig 命令的用法
 
-2.4 命令说明书（man） man shutdown //打开命令说明后，可按"q"键退出
+2.4 命令说明书（man） \
+man shutdown //打开命令说明后，可按"q"键退出
 
-2.5 切换用户（su） su yao //切换为用户"yao",输入后回车需要输入该用户的密码 exit //退出当前用户
+2.5 切换用户（su）\
+su yao //切换为用户"yao",输入后回车需要输入该用户的密码\
+exit //退出当前用户
 
-三、目录操作 3.1 切换目录（cd） cd / //切换到根目录 cd /bin //切换到根目录下的bin目录 cd ../ //切换到上一级目录 或者使用命令：cd .. cd \~ //切换到home目录 cd - //切换到上次访问的目录 cd xx(文件夹名) //切换到本目录下的名为xx的文件目录，如果目录不存在报错 cd /xxx/xx/x //可以输入完整的路径，直接切换到目标目录，输入过程中可以使用tab键快速补全
+三、目录操作 \
+3.1 切换目录（cd）&#x20;
 
-3.2 查看目录（ls） ls //查看当前目录下的所有目录和文件 ls -a //查看当前目录下的所有目录和文件（包括隐藏的文件） ls -l //列表查看当前目录下的所有目录和文件（列表查看，显示更多信息），与命令"ll"效果一样 ls /bin //查看指定目录下的所有目录和文件
+d / //切换到根目录 \
+cd /bin //切换到根目录下的bin目录 \
+cd ../ //切换到上一级目录 或者使用命令：cd .. cd \~ //切换到home目录 \
+cd - //切换到上次访问的目录 \
+cd xx(文件夹名) //切换到本目录下的名为xx的文件目录，如果目录不存在报错 \
+cd /xxx/xx/x //可以输入完整的路径，直接切换到目标目录，输入过程中可以使用tab键快速补全
 
-3.3 创建目录（mkdir） mkdir tools //在当前目录下创建一个名为tools的目录 mkdir /bin/tools //在指定目录下创建一个名为tools的目录
+3.2 查看目录（ls） \
+ls //查看当前目录下的所有目录和文件 \
+ls -a //查看当前目录下的所有目录和文件（包括隐藏的文件） \
+ls -l //列表查看当前目录下的所有目录和文件（列表查看，显示更多信息），与命令"ll"效果一样 \
+ls /bin //查看指定目录下的所有目录和文件
 
-3.3 删除目录与文件（rm） rm 文件名 //删除当前目录下的文件 rm -f 文件名 //删除当前目录的的文件（不询问） rm -r 文件夹名 //递归删除当前目录下此名的目录 rm -rf 文件夹名 //递归删除当前目录下此名的目录（不询问） rm -rf \* //将当前目录下的所有目录和文件全部删除 rm -rf /\* //将根目录下的所有文件全部删除【慎用！相当于格式化系统】
+3.3 创建目录（mkdir） \
+mkdir tools //在当前目录下创建一个名为tools的目录 \
+mkdir /bin/tools //在指定目录下创建一个名为tools的目录
 
-3.4 修改目录（mv） mv 当前目录名 新目录名 //修改目录名，同样适用与文件操作 mv /usr/tmp/tool /opt //将/usr/tmp目录下的tool目录剪切到 /opt目录下面 mv -r /usr/tmp/tool /opt //递归剪切目录中所有文件和文件夹
+3.3 删除目录与文件（rm） \
+rm 文件名 //删除当前目录下的文件 \
+rm -f 文件名 //删除当前目录的的文件（不询问） \
+rm -r 文件夹名 //递归删除当前目录下此名的目录 \
+rm -rf 文件夹名 //递归删除当前目录下此名的目录（不询问） \
+rm -rf \* //将当前目录下的所有目录和文件全部删除 \
+rm -rf /\* //将根目录下的所有文件全部删除【慎用！相当于格式化系统】
 
-3.5 拷贝目录（cp） cp /usr/tmp/tool /opt //将/usr/tmp目录下的tool目录复制到 /opt目录下面 cp -r /usr/tmp/tool /opt //递归剪复制目录中所有文件和文件夹
+3.4 修改目录（mv） \
+mv 当前目录名 新目录名 //修改目录名，同样适用与文件操作 \
+mv /usr/tmp/tool /opt //将/usr/tmp目录下的tool目录剪切到 /opt目录下面 \
+mv -r /usr/tmp/tool /opt //递归剪切目录中所有文件和文件夹
 
-3.6 搜索目录（find） find /bin -name 'a\*' //查找/bin目录下的所有以a开头的文件或者目录
+3.5 拷贝目录（cp） \
+cp /usr/tmp/tool /opt //将/usr/tmp目录下的tool目录复制到 /opt目录下面 \
+cp -r /usr/tmp/tool /opt //递归剪复制目录中所有文件和文件夹
 
-3.7 查看当前目录（pwd） pwd //显示当前位置路径
+3.6 搜索目录（find） \
+find /bin -name 'a\*' //查找/bin目录下的所有以a开头的文件或者目录
 
-四、文件操作 4.1 新增文件（touch） touch a.txt //在当前目录下创建名为a的txt文件（文件不存在），如果文件存在，将文件时间属性修改为当前系统时间
+3.7 查看当前目录（pwd） \
+pwd //显示当前位置路径
 
-4.2 删除文件（rm） rm 文件名 //删除当前目录下的文件 rm -f 文件名 //删除当前目录的的文件（不询问）
+四、文件操作 \
+4.1 新增文件（touch） \
+touch a.txt //在当前目录下创建名为a的txt文件（文件不存在），如果文件存在，将文件时间属性修改为当前系统时间
+
+4.2 删除文件（rm） \
+rm 文件名 //删除当前目录下的文件 \
+rm -f 文件名 //删除当前目录的的文件（不询问）
 
 4.3 编辑文件（vi、vim）
 
@@ -118,19 +157,26 @@ app00   //主机名称
   vim -R /etc/passwd                     //以只读模式打开文件
 ```
 
-4.4 查看文件 cat a.txt //查看文件最后一屏内容 less a.txt //PgUp向上翻页，PgDn向下翻页，"q"退出查看 more a.txt //显示百分比，回车查看下一行，空格查看下一页，"q"退出查看 tail -100 a.txt //查看文件的后100行，"Ctrl+C"退出查看
+4.4 查看文件 \
+cat a.txt //查看文件最后一屏内容 \
+less a.txt //PgUp向上翻页，PgDn向下翻页，"q"退出查看 \
+more a.txt //显示百分比，回车查看下一行，空格查看下一页，"q"退出查看 \
+tail -100 a.txt //查看文件的后100行，"Ctrl+C"退出查看
 
-五、文件权限 5.1 权限说明 文件权限简介：'r' 代表可读（4），'w' 代表可写（2），'x' 代表执行权限（1），括号内代表"8421法" ##文件权限信息示例：-rwxrw-r-- -第一位：'-'就代表是文件，'d'代表是文件夹 -第一组三位：拥有者的权限 -第二组三位：拥有者所在的组，组员的权限 -第三组三位：代表的是其他用户的权限
+五、文件权限 \
+5.1 权限说明 文件权限简介：'r' 代表可读（4），'w' 代表可写（2），'x' 代表执行权限（1），括号内代表"8421法" ##文件权限信息示例：-rwxrw-r-- -第一位：'-'就代表是文件，'d'代表是文件夹 -第一组三位：拥有者的权限 -第二组三位：拥有者所在的组，组员的权限 -第三组三位：代表的是其他用户的权限
 
 5.2 文件权限 普通授权 chmod +x a.txt 8421法 chmod 777 a.txt //1+2+4=7，"7"说明授予所有权限
 
-六、打包与解压 6.1 说明 .zip、.rar //windows系统中压缩文件的扩展名 .tar //Linux中打包文件的扩展名 .gz //Linux中压缩文件的扩展名 .tar.gz //Linux中打包并压缩文件的扩展名
+六、打包与解压 \
+6.1 说明 .zip、.rar //windows系统中压缩文件的扩展名 .tar //Linux中打包文件的扩展名 .gz //Linux中压缩文件的扩展名 .tar.gz //Linux中打包并压缩文件的扩展名
 
 6.2 打包文件 tar -zcvf 打包压缩后的文件名 要打包的文件 参数说明：z：调用gzip压缩命令进行压缩; c：打包文件; v：显示运行过程; f：指定文件名; 示例： tar -zcvf a.tar file1 file2,... //多个文件压缩打包
 
 6.3 解压文件 tar -zxvf a.tar //解包至当前目录 tar -zxvf a.tar -C /usr------ //指定解压的位置 unzip test.zip //解压_.zip文件 unzip -l test.zip //查看_.zip文件的内容
 
-七、其他常用命令 7.1 find find . -name "\*.c" //将目前目录及其子目录下所有延伸档名是 c 的文件列出来 find . -type f //将目前目录其其下子目录中所有一般文件列出 find . -ctime -20 //将目前目录及其子目录下所有最近 20 天内更新过的文件列出 find /var/log -type f -mtime +7 -ok rm {} \\; //查找/var/log目录中更改时间在7日以前的普通文件，并在删除之前询问它们 find . -type f -perm 644 -exec ls -l {} \\; //查找前目录中文件属主具有读、写权限，并且文件所属组的用户和其他用户具有读权限的文件 find / -type f -size 0 -exec ls -l {} \\; //为了查找系统中所有文件长度为0的普通文件，并列出它们的完整路径
+七、其他常用命令 \
+7.1 find find . -name "\*.c" //将目前目录及其子目录下所有延伸档名是 c 的文件列出来 find . -type f //将目前目录其其下子目录中所有一般文件列出 find . -ctime -20 //将目前目录及其子目录下所有最近 20 天内更新过的文件列出 find /var/log -type f -mtime +7 -ok rm {} \\; //查找/var/log目录中更改时间在7日以前的普通文件，并在删除之前询问它们 find . -type f -perm 644 -exec ls -l {} \\; //查找前目录中文件属主具有读、写权限，并且文件所属组的用户和其他用户具有读权限的文件 find / -type f -size 0 -exec ls -l {} \\; //为了查找系统中所有文件长度为0的普通文件，并列出它们的完整路径
 
 7.2 whereis whereis ls //将和ls文件相关的文件都查找出来
 
@@ -164,11 +210,24 @@ app00   //主机名称
 
 7.17 scp scp /opt/data.txt 192.168.1.101:/opt/ //将本地opt目录下的data文件发送到192.168.1.101服务器的opt目录下
 
-八、系统管理 8.1 防火墙操作 service iptables status //查看iptables服务的状态 service iptables start //开启iptables服务 service iptables stop //停止iptables服务 service iptables restart //重启iptables服务 chkconfig iptables off //关闭iptables服务的开机自启动 chkconfig iptables on //开启iptables服务的开机自启动 ##centos7 防火墙操作 systemctl status firewalld.service //查看防火墙状态 systemctl stop firewalld.service //关闭运行的防火墙 systemctl disable firewalld.service //永久禁止防火墙服务
+八、系统管理 \
+8.1 防火墙操作 \
+service iptables status //查看iptables服务的状态 \
+service iptables start //开启iptables服务 \
+service iptables stop //停止iptables服务 \
+service iptables restart //重启iptables服务 \
+chkconfig iptables off //关闭iptables服务的开机自启动 \
+chkconfig iptables on //开启iptables服务的开机自启动 \
+\##centos7 防火墙操作 \
+systemctl status firewalld.service //查看防火墙状态 \
+systemctl stop firewalld.service //关闭运行的防火墙 \
+systemctl disable firewalld.service //永久禁止防火墙服务
 
-8.2 修改主机名（CentOS 7） hostnamectl set-hostname 主机名
+8.2 修改主机名（CentOS 7） \
+hostnamectl set-hostname 主机名
 
-8.3 查看网络 ifconfig
+8.3 查看网络 \
+ifconfig
 
 8.4 修改IP
 
@@ -189,14 +248,25 @@ app00   //主机名称
   修改保存以后使用命令重启网卡：service network restart
 ```
 
-8.5 配置映射 修改文件： vi /etc/hosts 在文件最后添加映射地址，示例如下： 192.168.1.101 node1 192.168.1.102 node2 192.168.1.103 node3 配置好以后保存退出，输入命令：ping node1 ，可见实际 ping 的是 192.168.1.101。
+8.5 配置映射 \
+修改文件： vi /etc/hosts 在文件最后添加映射地址\
+示例如下： 192.168.1.101 node1 192.168.1.102 node2 192.168.1.103 node3 配置好以后保存退出，输入命令：ping node1 ，可见实际 ping 的是 192.168.1.101。
 
-8.6 查看进程 ps -ef //查看所有正在运行的进程
+8.6 查看进程 \
+ps -ef //查看所有正在运行的进程
 
-8.7 结束进程 kill pid //杀死该pid的进程 kill -9 pid //强制杀死该进程
+8.7 结束进程 \
+kill pid //杀死该pid的进程 \
+kill -9 pid //强制杀死该进程
 
-8.8 查看链接 ping IP //查看与此IP地址的连接情况 netstat -an //查看当前系统端口 netstat -an | grep 8080 //查看指定端口
+8.8 查看链接 \
+ping IP //查看与此IP地址的连接情况 \
+netstat -an //查看当前系统端口 \
+netstat -an | grep 8080 //查看指定端口
 
-8.9 快速清屏 ctrl+l //清屏，往上翻可以查看历史操作
+8.9 快速清屏 \
+ctrl+l //清屏，往上翻可以查看历史操作
 
-8.10 远程主机 ssh IP //远程主机，需要输入用户名和密码
+8.10 远程主机 \
+ssh IP //远程主机，需要输入用户名和密码
+
