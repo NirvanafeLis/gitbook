@@ -4,7 +4,6 @@
 
 ## 胡志明的玩意 <a href="#hzm" id="hzm"></a>
 
-* [Linux文件系统类型](hzm/linux-wen-jian-xi-tong-lei-xing.md)
 * [python 实验题](hzm/python-shi-yan-ti.md)
 * [TCP/IP协议栈（zhan 第四声）](hzm/tcpip-xie-yi-zhan-zhan-di-si-sheng.md)
 * [OSI七层模型](hzm/osi-qi-ceng-mo-xing.md)

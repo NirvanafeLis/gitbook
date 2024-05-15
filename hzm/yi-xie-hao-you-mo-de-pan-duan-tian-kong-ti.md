@@ -28,6 +28,12 @@ php中检查一个变量是否已设置并且不为null使用<mark style="color:
 
 wireshark程序页面可分为三个部分，分别是<mark style="color:blue;">包分组列表，包分组详情，包分组字节流</mark>
 
+Linux文件系统类型分为<mark style="color:blue;">**ext3 ext4 XFS ZFS**</mark>
+
+Linux文件类型为<mark style="color:blue;">**文件，目录，链接**</mark>等
+
+为了防止XSS漏洞，PHP开发者应该对用户输入进行<mark style="color:blue;">html实体编码，输入过滤</mark>处理
+
 
 
 [^1]: 
