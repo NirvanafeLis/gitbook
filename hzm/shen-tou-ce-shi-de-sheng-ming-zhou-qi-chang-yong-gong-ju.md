@@ -1,4 +1,4 @@
-# 基础（生命周期云云）
+# 渗透测试的生命周期&常用工具
 
 目前确定的说法之渗透测试的**生命周期**
 
@@ -29,7 +29,11 @@
 熟记即可 \
 **简述题** 列举常用渗透测试工具。
 
-> 信息收集类工具有nmap、fping、dnsmap等 漏洞分析类工具有sqlmap、nessus、awvs等 漏洞利用类工具有metasploit、burpsuite等 密码破解类工具有hydra、john、hashcat等 数据分析类工具有wireshark等。
+> 信息收集类工具有nmap、fping、dnsmap等 \
+> 漏洞分析类工具有sqlmap、nessus、awvs等 \
+> 漏洞利用类工具有metasploit、burpsuite等 \
+> 密码破解类工具有hydra、john、hashcat等 \
+> 数据分析类工具有wireshark等。
 
 简述扫描技术的分类 \
 扫描技术按照不同划分标准有不同的分类方式。如按照扫描技术分类可分为TCP扫描、UDP扫描，ICMP扫描、ARP扫描。其中TCP扫描又分为TCP CONNECT()扫描、TCP SYN扫描（这种方法较为常见）。ARP扫描效率较高，但不能跨网段，且工作在数据链路层，主要用于探测本地局域网中的主机存活情况。按照扫描所使用协议的工作层次，可分为二层扫描（ARP）、三层扫描（ICMP、IP）和四层扫描技术（TCP、UDP）。
