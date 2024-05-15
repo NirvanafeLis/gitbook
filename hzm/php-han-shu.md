@@ -17,7 +17,7 @@ php中运行代码&命令的函数
 9- preg_replace()
 命令执行函数：
 1- system()
-2-passthru()
+2- passthru()
 3- exec()
 4- pcntl_exec()
 5- shell_exec()
@@ -31,5 +31,6 @@ strlen():获取字符串长度
 substr():从字符串中返回子串
 strpos():查找字符串首次出现的位置
 str_replace():替换字符串中的部分或全部内容
-
+strtoupper():替换字符串为大写
+strtolower():替换字符串为小写
 ```
