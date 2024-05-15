@@ -4,6 +4,7 @@
 
 ## 胡志明的玩意 <a href="#hzm" id="hzm"></a>
 
+* [常见的提权方式](hzm/chang-jian-de-ti-quan-fang-shi.md)
 * [python 实验题](hzm/python-shi-yan-ti.md)
 * [TCP/IP协议栈（zhan 第四声）](hzm/tcpip-xie-yi-zhan-zhan-di-si-sheng.md)
 * [OSI七层模型](hzm/osi-qi-ceng-mo-xing.md)

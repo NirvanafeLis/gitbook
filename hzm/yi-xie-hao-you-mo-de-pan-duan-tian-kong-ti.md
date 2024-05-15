@@ -34,6 +34,6 @@ Linux文件类型为<mark style="color:blue;">**文件，目录，链接**</mark
 
 为了防止XSS漏洞，PHP开发者应该对用户输入进行<mark style="color:blue;">html实体编码，输入过滤</mark>处理
 
-
+是的php也是可以定义<mark style="color:blue;">**function**</mark>函数变量的
 
 [^1]: 

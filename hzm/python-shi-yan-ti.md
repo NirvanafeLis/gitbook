@@ -74,6 +74,73 @@ import random
 # print("你猜对了")
 ```
 
+循环体
+
+```
+#计算1-100的累加和
+#while循环实现
+# i=1
+# sum=0
+# while i<=100:
+# sum+=i
+# i+=1
+# print(sum)
+#for循环实现
+# sum=0
+# for i in range(1,101):
+# sum+=i
+# print(sum)
+#改进，1-100的偶数求和
+# sum=0
+# for i in range(0,101,2):
+# sum+=i
+# print(sum)
+#break 跳出整个循环体
+#continue 跳出本次循环
+#使用循环体改进猜数案例
+# data=random.randint(1,100)
+# for i in range(1,20):
+#
+# userdata=int(input("请输入一个1-100中的数字："))
+# if userdata > data:
+# print("你猜大了")
+# continue
+# elif userdata < data:
+# print("你猜小了")
+# continue
+# else:
+# print("你猜对了")
+# break
+#打印小星星 打印5行小星星，每行小星星数量递增
+# line=1
+# while line <= 5:
+# print("*" * line)
+# line+=1
+#打印10行*，每行50个星星
+for i in range(1,6):
+ print("*"*50)
+#嵌套打印小星星
+#1.完成5行的简单输出 2.每行内部的*进行处理
+#
+# row=1
+# while row<=5:
+# col=1
+# while col<=row:
+# print("*",end="")
+# col+=1
+# print("")
+# row+=1
+#打印九九乘法表
+row=1
+while row<=9:
+ col=1
+ while col<=row:
+ print("%d*%d=%d"%(row,col,row*col),end=" ")
+ col+=1
+ print("")
+ row+=1
+```
+
 至于输出方式
 
 ```
