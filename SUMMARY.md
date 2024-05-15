@@ -4,6 +4,8 @@
 
 ## 胡志明的玩意 <a href="#hzm" id="hzm"></a>
 
+* [TCP/IP协议栈](hzm/tcpip-xie-yi-zhan.md)
+* [OSI七层模型](hzm/osi-qi-ceng-mo-xing.md)
 * [一些好幽默的判断/填空题](hzm/yi-xie-hao-you-mo-de-pan-duan-tian-kong-ti.md)
 * [请求头&响应头字段与作用](hzm/qing-qiu-tou-xiang-ying-tou-zi-duan-yu-zuo-yong.md)
 * [渗透测试的生命周期&常用工具](hzm/shen-tou-ce-shi-de-sheng-ming-zhou-qi-chang-yong-gong-ju.md)
@@ -25,7 +27,6 @@
 * [Webshell是啥](zzk/webshell-shi-sha.md)
 * [GET\&POST传参的区别](zzk/getpost-chuan-can-de-qu-bie.md)
 * [url组成部分](zzk/url-zu-cheng-bu-fen.md)
-* [OSI七层模型](zzk/osi-qi-ceng-mo-xing.md)
 * [HTTP协议](zzk/http-xie-yi.md)
 * [Arp Dns协议](zzk/arp-dns-xie-yi.md)
 * [Csrf漏洞](zzk/csrf-lou-dong.md)
