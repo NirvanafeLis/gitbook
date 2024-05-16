@@ -17,14 +17,19 @@ php中检查一个变量是否已设置并且不为null使用<mark style="color:
 
 在 PHP 中，有两种类型的数组： <mark style="color:blue;">**索引数组 关联数组**</mark>
 
-简述在 Centos Linux7 下配置本地 YUM 源的过程\
-**步骤一：下载yum及其相关依赖的安装包**\
-**步骤二：将下载的安装包上传到CentOS 7服务器**\
-**步骤三：安装yum及其相关依赖**\
-**步骤四：生成yum缓存**\
-**步骤五：清理yum缓存**\
-**步骤六：更新yum文件**\
-**步骤七：检查yum是否安装成功**
+```
+4.简述在Centos Linux7下配置本地YUM源的过程。
+参考答案：
+1)将系统镜像ISO文件挂载到/mnt
+2)编辑YUM配置文件/etc/yum.repos.d/mydvd.repo
+[mydvd]
+name=centos7-local
+baseurl=file:///mnt/
+enabled=1
+gpgchecked=0
+3)清除yum缓存yum clean all
+4)yum源测试 yum list all
+```
 
 wireshark程序页面可分为三个部分，分别是<mark style="color:blue;">包分组列表，包分组详情，包分组字节流</mark>
 
