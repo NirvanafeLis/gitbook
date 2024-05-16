@@ -27,6 +27,7 @@
 
 ## 张振康的玩意 <a href="#zzk" id="zzk"></a>
 
+* [简答题+综合题](zzk/jian-da-ti-+-zong-he-ti.md)
 * [Webshell是啥](zzk/webshell-shi-sha.md)
 * [GET\&POST传参的区别](zzk/getpost-chuan-can-de-qu-bie.md)
 * [url组成部分](zzk/url-zu-cheng-bu-fen.md)
