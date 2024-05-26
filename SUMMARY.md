@@ -39,3 +39,8 @@
 * [文件上传漏洞](zzk/wen-jian-shang-chuan-lou-dong.md)
 * [文件包含漏洞](zzk/wen-jian-bao-han-lou-dong.md)
 * [命令执行漏洞](zzk/ming-ling-zhi-hang-lou-dong.md)
+
+## 最后真考了的玩意儿
+
+* [前言](zui-hou-zhen-kao-le-de-wan-yi-er/qian-yan.md)
+* [彩虹表](zui-hou-zhen-kao-le-de-wan-yi-er/cai-hong-biao.md)
