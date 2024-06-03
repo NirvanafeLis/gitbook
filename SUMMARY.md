@@ -4,7 +4,7 @@
 
 ## 正题
 
-* [linux基础](zheng-ti/linux-ji-chu.md)
+* [理论题理论题理论题](zheng-ti/li-lun-ti-li-lun-ti-li-lun-ti.md)
 * [mysql](zheng-ti/mysql.md)
 * [msfconsole](zheng-ti/msfconsole.md)
 * [xprobe](zheng-ti/xprobe.md)
